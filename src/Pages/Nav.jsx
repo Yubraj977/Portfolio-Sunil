@@ -26,7 +26,7 @@ function Nav() {
        y: e.clientY,
        ease: "power1.out",
        overwrite: "auto",
-       stagger: 1,
+       stagger: 0.5,
       
        
      });
@@ -48,11 +48,29 @@ function Nav() {
         </nav>
       <Outlet/>
 
-      <div className="min-h-screen bg-black">
+      <div className="absolute">
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div> 
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>  
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>  
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>  
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+     
+ 
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
