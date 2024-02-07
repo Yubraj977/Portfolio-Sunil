@@ -1,9 +1,11 @@
 import React from 'react'
 import { useRef ,useEffect} from 'react';
+import fly from '/fly.svg'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { NavLink,Outlet } from 'react-router-dom'
+console.log(fly);
 function Nav() {
  const navref=useRef(null)
  console.log(navref);
@@ -24,9 +26,9 @@ function Nav() {
        duration: 0.5,
        x: e.clientX,
        y: e.clientY,
-       ease: "power1.out",
+      //  ease: "power1.out",
        overwrite: "auto",
-       stagger: 0.5,
+       stagger: 0.3,
       
        
      });
@@ -44,26 +46,16 @@ function Nav() {
             <NavLink to='/about'>About</NavLink>
             <NavLink to='/services'>Services</NavLink>
             <NavLink to='/offers'>offers</NavLink>
+            
             </div>
         </nav>
       <Outlet/>
 
-      <div className="absolute">
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div> 
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>  
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>  
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>  
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="absolute z-0">
+      
      
  
+      {/* <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
@@ -71,10 +63,39 @@ function Nav() {
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
       <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
-      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div>
+      <div className="ball bg-white w-4 h-4 fixed top-0 left-0 rounded-full pointer-events-none"></div> */}
+      
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none z-0"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none"><img src={fly} alt="" className=' h-8 w-8'/></div>
+      <div className="ball fixed top-0 left-0 rounded-full pointer-events-none z-0"><img src={fly} alt="" className=' h-8 w-8'/></div>
+
     </div>
 
 
